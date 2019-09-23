@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Columns, Navbar, Content, Icon, Image  } from 'react-bulma-components';
+import { Columns, Navbar, Content, Image  } from 'react-bulma-components';
 
 import './assets/header.css';
 import bg from './assets/bg.jpg';
