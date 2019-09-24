@@ -1,0 +1,11 @@
+.navbar-menu .navbar-start a.navbar-item{
+	color: white;
+}
+
+.navbar-menu .navbar-start a.navbar-item, .navbar-menu .navbar-start a.navbar-item:hover {
+	background: transparent;
+}
+
+.navbar-menu .navbar-start a.navbar-item:hover {
+	font-weight: bold;
+}

@@ -1,15 +1,23 @@
 import React from 'react';
-import { Content } from 'react-bulma-components';
+import { Content, Container, Heading } from 'react-bulma-components';
 
 const Home = () => {
 	return (
-		<Content>
-		 Cotizador
-		 Our Services
-		 Portfolio
-		 Contact
-		</Content>
-	)
+		<Container>
+			<Content>
+				<Heading>Cotiza tu web</Heading>
+			</Content>
+			<Content>
+				<Heading>Our Service</Heading>
+			</Content>
+			<Content>
+				<Heading>Portafolio</Heading>
+			</Content>
+			<Content>
+				<Heading>Contacto</Heading>
+			</Content>
+		</Container>
+	);
 }
 
 
