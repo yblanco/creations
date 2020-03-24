@@ -1,0 +1,26 @@
+{
+  "locale": "en-us",
+  "home": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "us": "Nosotros",
+    "contact": "Contáctanos"
+  },
+  "footer": {
+    "powered_by": "Desarrollado por"
+  },
+  "budget": {
+    "budget_title": "Cotiza tu web",
+    "quote": "Cotizar",
+    "element_on_home_page": "Selecciona los elementos que desea en su página principal.",
+    "sections_on_page": "Selecciona las secciones que desea en su web.",
+    "time_for_ready": "Seleccione el tiempo en que desearía tener lista su web."
+  },
+  "services": {
+    "services_title": "Nuestros Servicios",
+    "design_description": "De hecho experimentamos este impacto en los más mínimos detalles de nuestra.",
+    "develop_description": "Tiene un efecto en nuestra cultura, nuestra economía y en nuestros niveles de vida.",
+    "consulting_description": "Impacto en los más mínimos detalles de nuestra vida cotidiana, ya que la tecnología."
+  }
+}

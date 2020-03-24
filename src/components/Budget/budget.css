@@ -1,0 +1,28 @@
+.budget {
+  padding-bottom: 4em;
+}
+
+.step-budget {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  border-radius: 3em;
+}
+
+
+.step-budget-dot {
+  background: white;
+  height: 1em;
+  width: 1em;
+  color: white;
+  border-radius: 10em;
+  display: inline-block;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+
+.content .step-budget-icon figure{
+  margin-left: 0;
+  margin-right: 0;
+}

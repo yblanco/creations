@@ -1,0 +1,26 @@
+{
+  "locale": "en-us",
+  "home": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "us": "About us",
+    "contact": "Get in touch"
+  },
+  "footer": {
+    "powered_by": "Powered by"
+  },
+  "budget": {
+    "budget_title": "Quote your web",
+    "quote": "Quote",
+    "element_on_home_page": "NEED TRANSLATE",
+    "sections_on_page": "NEED TRANSLATE",
+    "time_for_ready": "NEED TRANSLATE"
+  },
+  "services": {
+    "services_title": "Our Services",
+    "design_description": "NEED TRANSLATE",
+    "develop_description": "NEED TRANSLATE",
+    "consulting_description": "NEED TRANSLATE"
+  }
+}

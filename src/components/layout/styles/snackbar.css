@@ -1,0 +1,71 @@
+:root {
+  --snackbar-margin-bottom: 1.6rem;
+}
+
+.notification.snackbar {
+  --snackbar-margin: 1.5rem;
+  min-width: 25vw;
+  max-width: 50vw;
+  position: fixed;
+  z-index: 15;
+  margin-left: var(--snackbar-margin);
+  margin-right: var(--snackbar-margin);
+  bottom: var(--snackbar-margin-bottom);
+  right: var(--snackbar-margin-bottom);
+  box-shadow: 0 0.25em 0.25em 0.25em rgba(0, 0, 0, 0.25);
+  font-size: 1rem;
+}
+
+.notification.snackbar.show {
+  opacity: 1;
+  animation: fadein 0.5s;
+}
+
+.notification.snackbar.hide {
+  opacity: 0;
+  animation: fadeout 0.5s;
+}
+
+[data-text=""].notification.snackbar {
+  opacity: 0;
+}
+
+@media screen and (max-width: 630px) {
+  :root {
+    --snackbar-margin-bottom: 6rem;
+  }
+
+  .notification.snackbar  {
+    max-width: 100vw;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .notification.snackbar  {
+    max-width: 30vw;
+  }
+}
+
+/* Animations to fade the snackbar in and out */
+@keyframes fadein {
+  from {
+      bottom: 0;
+      opacity: 0;
+  }
+  to {
+      bottom: var(--snackbar-margin-bottom);
+      opacity: 1;
+  }
+}
+
+
+@keyframes fadeout {
+  from {
+      bottom: var(--snackbar-margin-bottom);
+      opacity: 1;
+  }
+  to {
+      bottom: 0;
+      opacity: 0;
+  }
+}

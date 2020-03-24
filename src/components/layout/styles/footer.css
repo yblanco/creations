@@ -1,0 +1,15 @@
+body #root > div {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+body #root > div > .container {
+  flex: 1;
+  margin: 0 0;
+}
+
+.footer {
+  padding: 0.25em;
+  text-align: center;
+}
