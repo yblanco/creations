@@ -12,6 +12,7 @@
   },
   "budget": {
     "budget_title": "Quote your web",
+    "budget_description": "NEED TRANSLATE",
     "quote": "Quote",
     "element_on_home_page": "NEED TRANSLATE",
     "sections_on_page": "NEED TRANSLATE",
@@ -22,5 +23,14 @@
     "design_description": "NEED TRANSLATE",
     "develop_description": "NEED TRANSLATE",
     "consulting_description": "NEED TRANSLATE"
+  },
+  "contact": {
+    "get_in_touch": "Get in touch",
+    "get_in_touch_description": "NEED TRANSLATE",
+    "name": "Name",
+    "mail": "e-mail",
+    "phone": "Number Phone",
+    "message": "Message",
+    "contact": "NEED TRANSLATE"
   }
 }

@@ -20,8 +20,8 @@ export default translate('budget')(({ t, step, icon, text }) => {
       <Columns className="is-vcentered">
         <Columns.Column size={3} className="has-text-centered">
           {
-            steps.map(item => (
-              <span className="step-budget-dot">
+            steps.map((item, i) => (
+              <span key={`${item}-${i}`} className="step-budget-dot">
               </span>
             ))
           }
@@ -30,7 +30,7 @@ export default translate('budget')(({ t, step, icon, text }) => {
           {t(text)}
         </Columns.Column>
         <Columns.Column size={2} className="step-budget-icon">
-          <Image alt={icon} src={src} size="48x48" />
+          <Image alt={icon} src={src} size={48} />
         </Columns.Column>
       </Columns>
     </Content>

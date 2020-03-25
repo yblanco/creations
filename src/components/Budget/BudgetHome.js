@@ -13,15 +13,15 @@ import './budget.css';
 
 export default translate('budget')(({ t }) => {
   return (
-    <Container className="budget">
+    <Container className="section">
       <Columns>
         <Columns.Column>
-          <Heading size={4}>
+          <Heading size={3}>
             {t('budget_title')}
           </Heading>
           <Columns>
             <Columns.Column offset={1} size={10} className="has-text-justified">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu odio sed velit facilisis lobortis. Donec eu mi luctus, cursus turpis sit amet, rhoncus erat. Donec quam mi, semper in erat ac, lobortis rhoncus tortor. Duis ultrices eget mauris tincidunt scelerisque.
+              {t('budget_description')}
             </Columns.Column>
           </Columns>
           <Columns>

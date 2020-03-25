@@ -16,7 +16,7 @@ export default translate('services')(({ t, type }) => {
   const { [type]:src = "" } = icons;
   return (
     <Content className="has-text-centered">
-      <Image alt="text" src={src} size="128x128" />
+      <Image alt="text" src={src} size={128} />
       {t(`${type}_description`)}
     </Content>
   );

@@ -12,6 +12,7 @@
   },
   "budget": {
     "budget_title": "Cotiza tu web",
+    "budget_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu odio sed velit facilisis lobortis. Donec eu mi luctus, cursus turpis sit amet, rhoncus erat. Donec quam mi, semper in erat ac, lobortis rhoncus tortor. Duis ultrices eget mauris tincidunt scelerisque.",
     "quote": "Cotizar",
     "element_on_home_page": "Selecciona los elementos que desea en su página principal.",
     "sections_on_page": "Selecciona las secciones que desea en su web.",
@@ -22,5 +23,14 @@
     "design_description": "De hecho experimentamos este impacto en los más mínimos detalles de nuestra.",
     "develop_description": "Tiene un efecto en nuestra cultura, nuestra economía y en nuestros niveles de vida.",
     "consulting_description": "Impacto en los más mínimos detalles de nuestra vida cotidiana, ya que la tecnología."
+  },
+  "contact": {
+    "get_in_touch": "Contáctanos",
+    "get_in_touch_description": "Lorem ipsum dolor sit amet, consectetur.",
+    "name": "Nombre",
+    "mail": "Correo electrónico",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "contact": "Contactar"
   }
 }

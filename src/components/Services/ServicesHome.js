@@ -11,7 +11,7 @@ import './services.css'
 
 export default translate('services')(({ t }) => {
   return (
-    <Container className="services">
+    <Container className="section">
       <Heading size={4} className="has-text-centered	">
         {t('services_title')}
       </Heading>
