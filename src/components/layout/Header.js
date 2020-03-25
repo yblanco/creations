@@ -16,11 +16,12 @@ const rrss = ['google', 'twitter', 'linkedn', 'instagram', 'facebook', 'skype', 
 const links = ['home', 'services', 'portfolio', 'us', 'contact'];
 
 const style = {
-		backgroundImage: `url(${bg})`,
-		backgroundPosition: 'center',
-  	backgroundSize: 'cover',
-  	backgroundRepeat: 'no-repeat'
-	}
+	backgroundImage: `url(${bg})`,
+	backgroundPosition: 'center',
+	backgroundSize: 'cover',
+	backgroundRepeat: 'no-repeat',
+	marginBottom: 0,
+}
 export default ({ apps, setApp, clearApp, t }) => (
   <Content style={style}>
     <Container>

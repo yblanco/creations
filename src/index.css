@@ -48,3 +48,7 @@ button {
 .section figure {
   margin: auto;
 }
+
+.bg1 {
+  background: url('/bg1.png')
+}
