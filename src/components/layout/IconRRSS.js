@@ -6,7 +6,6 @@ import ws from './images/ws.png';
 import tw from './images/tw.png';
 import ig from './images/ig.png';
 import fb from './images/fb.png';
-import g from './images/g.png';
 import yt from './images/yt.png';
 import skype from './images/skype.png';
 
@@ -31,10 +30,6 @@ const rrss = {
   facebook: {
     icon: fb,
     name: 'Facebook',
-  },
-  google: {
-    icon: g,
-    name: 'Google',
   },
   skype: {
     icon: skype,

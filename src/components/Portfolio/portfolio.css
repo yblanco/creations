@@ -1,0 +1,9 @@
+.section.portfolio, .section.portfolio .columns .column {
+  padding: 0;
+  margin: 0;
+}
+
+.section.portfolio figure, .section.portfolio figure img {
+  width: 100%;
+  height: 100%;
+}
