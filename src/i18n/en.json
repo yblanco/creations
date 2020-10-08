@@ -32,5 +32,13 @@
     "phone": "Number Phone",
     "message": "Message",
     "contact": "NEED TRANSLATE"
+  },
+  "contact_info": {
+    "get_budget": "",
+    "info_budget": "",
+    "step_one": "",
+    "step_two": "",
+    "step_three": "",
+    "step_four": ""
   }
 }

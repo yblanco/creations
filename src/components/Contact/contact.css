@@ -1,0 +1,9 @@
+.content.info-contact h1:not(:first-child):not(.subtitle){
+  padding-left: 1em;
+  padding-right: 4em;
+}
+
+.content.info-contact h1.subtitle{
+  padding-bottom: 4em;
+  padding-top: 1em;
+}

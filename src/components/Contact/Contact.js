@@ -1,9 +1,9 @@
 import React from 'react';
-import { Content, Container, Columns, Image } from 'react-bulma-components';
+import { Content, Container, Columns } from 'react-bulma-components';
 
 import ContactForm from './ContactForm';
+import InfoContact from './InfoContact';
 
-import info from './images/example.png';
 
 import bg from './images/bg.png';
 
@@ -19,9 +19,9 @@ export default () => {
   return (
     <Content style={style}>
       <Container className="section">
-        <Columns className="is-vcentered">
+        <Columns>
           <Columns.Column>
-            <Image alt="text" src={info} size={128} />
+            <InfoContact />
           </Columns.Column>
           <Columns.Column>
             <ContactForm />
