@@ -9,20 +9,22 @@ import ServicesItem from './ServicesItem';
 
 
 import bg from './images/bg.png';
+import bgLeft from './images/bg-left.png';
+
 
 import './services.css'
 
 
 const style = {
-  backgroundImage: `url(${bg})`,
-  backgroundPosition: "bottom right",
+  backgroundImage: `url(${bg}), url(${bgLeft})`,
+  backgroundPosition: "bottom right, top left",
   backgroundRepeat: "no-repeat",
   backgroundAttachment: "fixed",
 }
 
 export default translate('services')(({ t }) => {
   return (
-    <Content style={style}>
+    <Content style={style} className='services'>
       <Container className="section">
         <Heading size={4} className="has-text-centered	">
           {t('services_title')}

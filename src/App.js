@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 
 import { TranslatorProvider } from 'react-translate';
 
-
 import { Container } from 'react-bulma-components';
 
 import { Store } from './reducers';

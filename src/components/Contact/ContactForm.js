@@ -19,25 +19,25 @@ export default translate('contact')(({ t }) => {
           <Form.Label>
             {t('name')}
           </Form.Label>
-          <Form.Input />
+          <Form.Input readOnly />
         </Form.Field>
         <Form.Field>
           <Form.Label>
             {t('mail')}
           </Form.Label>
-          <Form.Input />
+          <Form.Input readOnly />
         </Form.Field>
         <Form.Field>
           <Form.Label>
             {t('phone')}
           </Form.Label>
-          <Form.Input />
+          <Form.Input readOnly />
         </Form.Field>
         <Form.Field>
           <Form.Label>
             {t('message')}
           </Form.Label>
-          <Form.Input />
+          <Form.Input readOnly />
         </Form.Field>
         <Form.Field>
           <Button color="link">{t('contact')}</Button>

@@ -29,7 +29,7 @@ export default ({ apps, setApp, clearApp, t }) => (
         {rrss.map((item, i) => (
           <Columns.Column
 						key={item}
-						desktop={{ size: 1, offset: i === 0 ? 3 : 0 }}
+						desktop={{ size: 1, offset: i === 0 ? 3 : null }}
 						tablet={{ size: 2 }}
 					>
             <IconRRSS rs={item} />
@@ -54,10 +54,7 @@ export default ({ apps, setApp, clearApp, t }) => (
       <Columns className="headers-links has-text-white has-text-weight-bold">
         {links.map((item, i) => (
           <Columns.Column
-						desktop={{
-							size: 2,
-							offset: i === 0 ? 2 : 0,
-						}}
+						desktop={{ size: 2, offset: i === 0 ? 2 : null }}
 						tablet={{}}
             className="has-text-centered"
             key={item}
