@@ -4,9 +4,7 @@ import { Content, Container, Columns } from 'react-bulma-components';
 import ContactForm from './ContactForm';
 import InfoContact from './InfoContact';
 
-
 import bg from './images/bg.png';
-
 
 const style = {
   backgroundImage: `url(${bg})`,

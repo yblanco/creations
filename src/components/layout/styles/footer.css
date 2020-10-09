@@ -13,3 +13,13 @@ body #root > div > .container {
   padding: 0.25em;
   text-align: center;
 }
+
+.footer-full {
+  padding-top: 5em;
+  padding-bottom: 1em;
+}
+
+.member-footer {
+  background-color: transparent;
+  padding-bottom: 2.5em;
+}

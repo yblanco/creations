@@ -40,5 +40,8 @@
     "step_two": "Ingresa tus datos para que podamos contactarte.",
     "step_three": "En el campo de mensaje, cuéntanos sobre la idea que tienes para tu proyecto.",
     "step_four": "Asegúrate de indicar datos como: Negocio, tipo de aplicación que necesitas: Web-movil y en cuánto tiempo esperarías recibir tu aplicación terminada."
+  },
+  "members": {
+    "info": "The harry is the potter and the potter is the harry."
   }
 }
