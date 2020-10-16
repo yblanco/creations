@@ -1,12 +1,12 @@
 import React from 'react';
-import { Content, Box, Image } from 'react-bulma-components';
+import { Content, Container, Box, Image } from 'react-bulma-components';
 
 import { translate } from "react-translate";
 
 import './styles/member.css';
 
 export default translate('members')(({ t }) => (
-  <Content className='member'>
+  <Container className='member'>
     <Image rounded size={96} />
     <Box>
       <Content className='name has-text-weight-bold'>
@@ -19,5 +19,5 @@ export default translate('members')(({ t }) => (
         {t('info')}
       </Content>
     </Box>
-  </Content>
+  </Container>
 ));

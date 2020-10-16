@@ -8,7 +8,9 @@
     "contact": "Contáctanos"
   },
   "footer": {
-    "powered_by": "Desarrollado por"
+    "powered_by": "Desarrollado por",
+    "services": "Servicios",
+    "service_description": "Diseño y desarrollo de páginas y aplicaciones webs"
   },
   "budget": {
     "budget_title": "Cotiza tu web",

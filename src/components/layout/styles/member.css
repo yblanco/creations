@@ -1,24 +1,25 @@
-.content.member {
+.member {
   position: relative;
+  padding: 1.5em;
 }
 
-.content.member figure {
+.member figure {
   margin: 0;
   position: absolute;
-  top: -2em;
-  left: -2em;
+  top: -1.5em;
+  left: -1.5em;
 }
 
-.content.member .box .content {
+.member .box .content {
   padding: 0;
   margin: 0;
 }
 
-.content.member .box .content.name {
+.member .box .content.name {
   padding-left: 3em;
   font-size: 1.1em;
 }
-.content.member .box .content.role {
+.member .box .content.role {
   padding-left: 3.75em;
   font-size: 0.9em;
 }
