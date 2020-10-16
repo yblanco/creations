@@ -36,7 +36,7 @@ export default translate('footer')(({ t }) => (
     </Container>
     <Columns>
       <Columns.Column size={4}>
-        <Image src='favicon.ico' size={96} style={{ margin: 'auto' }}/>
+        <Image src='favicon.png' size={96} style={{ margin: 'auto' }}/>
       </Columns.Column>
       <Columns.Column size={4}>
         <Heading size={4}>
