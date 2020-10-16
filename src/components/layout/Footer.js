@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer, Container, Content, Columns, Heading } from 'react-bulma-components';
+import { Footer, Container, Content, Columns, Heading, Image } from 'react-bulma-components';
 import Moment from 'react-moment';
 
 import { translate } from "react-translate";
@@ -36,6 +36,7 @@ export default translate('footer')(({ t }) => (
     </Container>
     <Columns>
       <Columns.Column size={4}>
+        <Image src='favicon.ico' size={96} style={{ margin: 'auto' }}/>
       </Columns.Column>
       <Columns.Column size={4}>
         <Heading size={4}>
