@@ -36,20 +36,20 @@ export default translate('footer')(({ t }) => (
     </Container>
     <Columns>
       <Columns.Column size={4}>
-        <Image src='favicon.png' size={96} style={{ margin: 'auto' }}/>
+        <Image src='icon.png' size={96} style={{ margin: 'auto' }}/>
       </Columns.Column>
       <Columns.Column size={4}>
         <Heading size={4}>
           Creations
         </Heading>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales quam.
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales quam.</span>
       </Columns.Column>
       <Columns.Column size={4}>
         <Heading size={4}>
           {t('services')}
         </Heading>
-        {t('service_description')}
-        <Columns>
+        <span>{t('service_description')}</span>
+        <Columns className='is-mobile'>
           {rrss.map((item, i) => (
             <Columns.Column
               key={item}

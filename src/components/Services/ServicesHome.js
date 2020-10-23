@@ -37,7 +37,7 @@ export default translate('services')(({ t }) => {
             <ServicesItem type="develop" />
           </Columns.Column>
           <Columns.Column>
-            <ServicesItem type="consulting" />
+            <ServicesItem type="uiux" />
           </Columns.Column>
         </Columns>
       </Container>
