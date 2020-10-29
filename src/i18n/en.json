@@ -21,10 +21,13 @@
     "time_for_ready": "NEED TRANSLATE"
   },
   "services": {
-    "services_title": "Our Services",
-    "design_description": "NEED TRANSLATE",
-    "develop_description": "NEED TRANSLATE",
-    "consulting_description": "NEED TRANSLATE"
+    "services_title": "Our services",
+    "design_title": "Design",
+    "design_description": "Brand design, high-end functional prototypes, websites and aplicationes over the web.",
+    "develop_title": "Desarrollo",
+    "develop_description": "Mobile Applications Development, seo, UI/UX",
+    "uiux_title": "Modelado de procesos",
+    "uiux_description": "Process design and business process modeling."
   },
   "contact": {
     "get_in_touch": "Get in touch",

@@ -17,7 +17,8 @@ export default translate('services')(({ t, type }) => {
   const { [type]:src = example } = icons;
   return (
     <Content className="has-text-centered">
-      <Image alt="text" src={src} size={128} />
+      <Image alt="text" src={src} size={96} />
+      <div style={{ fontWeight: 'bold', paddingBottom: '0.5em' }}>{t(`${type}_title`)}</div>  
       {t(`${type}_description`)}
     </Content>
   );

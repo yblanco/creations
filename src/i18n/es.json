@@ -22,9 +22,12 @@
   },
   "services": {
     "services_title": "Nuestros Servicios",
-    "design_description": "De hecho experimentamos este impacto en los más mínimos detalles de nuestra.",
-    "develop_description": "Tiene un efecto en nuestra cultura, nuestra economía y en nuestros niveles de vida.",
-    "consulting_description": "Impacto en los más mínimos detalles de nuestra vida cotidiana, ya que la tecnología."
+    "design_title": "Diseño",
+    "design_description": "Diseño de marca, prototipos funcionales, páginas web y aplicaciones móviles.",
+    "develop_title": "Desarrollo",
+    "develop_description": "Desarrollo de aplicaciones móviles, seo, UI/UX",
+    "uiux_title": "Modelado de procesos",
+    "uiux_description": "Creación y optimización de procesos de negocios."
   },
   "contact": {
     "get_in_touch": "Contáctanos",
